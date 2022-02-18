@@ -15,7 +15,6 @@ const Task = ({ task, handleTaskClick, handleTaskDlt }) => {
       <div className="buttons-container">
         <button
           className="remove-task-button"
-          
           onClick={() => handleTaskDlt(task.id)}
         >
           <CgClose />
